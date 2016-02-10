@@ -1,0 +1,1 @@
+Find number of Non Leaf nodes in Binary Tree having one child (left child or right child)
