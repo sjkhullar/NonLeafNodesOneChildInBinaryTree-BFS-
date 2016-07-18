@@ -21,6 +21,7 @@ public class CountNonLeafOneChild {
 					|| (node.left == null && node.right != null) ) {
 				nNonLeaves++;				
 			}			
+			
 			if (node.left != null) {
 				queue.offer(node.left);
 			}
@@ -28,7 +29,7 @@ public class CountNonLeafOneChild {
 				queue.offer(node.right);
 			}
 		}
-		System.out.println("Non Leaf nodes having one child node in Binary Tree is : " + nNonLeaves);
+		System.out.println("Number of non-leaf nodes in a binary tree: " + nNonLeaves);
 		return nNonLeaves;
 	}
 }
